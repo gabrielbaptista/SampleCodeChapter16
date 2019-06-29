@@ -1,8 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <!-- SonarQube needs this -->
+    <ProjectGuid>{aa429d48-638d-40d6-8191-180aabd47845}</ProjectGuid>
+    
   </PropertyGroup>
 
 
